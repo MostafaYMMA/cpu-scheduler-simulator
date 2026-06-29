@@ -1,17 +1,19 @@
-## headers.h contains clk functions, it should be included anywhere the clock functions are used.
+# CPU Scheduler Simulator
 
-## To get time call:
+A CPU scheduling simulator built as part of the Operating Systems course at Cairo University.
 
-getClk();
+## Algorithms Implemented
+- Round Robin (RR)
+- Shortest Remaining Time First (SRTF)
+- Highest Priority First (HPF)
 
-## You can use Makefile to build and run your project
+## Features
+- Terminal visualization of process state transitions
+- Scheduling output showing waiting time and CPU utilization
+- Buddy system memory management
 
-# To compile your project, use the command:
-make
+## Tech Stack
+C
 
-# To run your project, use the command:
-make run
-
-# If you added a file to your project add it to the build section in the Makefile
-
-# Always start the line with a tab in Makefile, it is its syntax
+## Notes
+Team project at Cairo University. Note: some edge cases in algorithm consistency are still being worked on.
